@@ -1,2 +1,0 @@
-# YeahMediumViewer
-Created with CodeSandbox

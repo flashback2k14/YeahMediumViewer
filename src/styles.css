@@ -1,0 +1,8 @@
+body {
+  background-color: #f3e5f5;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.hidden {
+  display: none !important;
+}

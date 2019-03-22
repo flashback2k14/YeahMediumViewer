@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Yeah! Medium Converter</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#4a148c" />
+    <link rel="stylesheet" href="src/styles.css" />
+    <link rel="manifest" href="manifest.json" />
+  </head>
+  <body>
+    <p id="requireHTTPS" class="hidden">
+      <b>STOP!</b> This page <b>must</b> be served over HTTPS. Please
+      <a>reload this page via HTTPS</a>.
+    </p>
+
+    <p id="shareNotSupported" class="hidden">
+      <code>navigator.share</code> is not supported in this browser, try sharing
+      from another app instead.
+    </p>
+
+    <div id="txtTitle"></div>
+
+    <div id="txtResult"></div>
+
+    <script src="src/check-protocol.js"></script>
+    <script src="src/register-sw.js"></script>
+    <script src="src/turndown.js"></script>
+    <script src="src/index.js"></script>
+  </body>
+</html>
